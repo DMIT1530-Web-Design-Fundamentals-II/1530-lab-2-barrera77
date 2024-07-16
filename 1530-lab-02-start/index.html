@@ -1,24 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Gelato Grotto</title>
 
     <!-- Make sure to replace this content with your own. -->
-    <meta name="author" content="Valerie Watson | vwatson@nait.ca">
-    <meta name="description" content="This website demonstrates how to create a simple single-level drop-down menu.">
+    <meta name="author" content="Valerie Watson | vwatson@nait.ca" />
+    <meta
+      name="description"
+      content="This website demonstrates how to create a simple single-level drop-down menu."
+    />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header><h1>Gelatto Grotto</h1></header>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="#">Current Flavors</a>
+        </li>
+        <li>
+          <a href="#"
+            >About
+            <img
+              class="svg-icon"
+              src="img/arrow-down-sign-to-navigate.svg"
+              alt="SVG Icon"
+          /></a>
+          <ul class="submenu">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Farms</a></li>
+            <li><a href="#">Collaborators</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"
+            >Shops
+            <img
+              class="svg-icon"
+              src="img/arrow-down-sign-to-navigate.svg"
+              alt="SVG Icon"
+          /></a>
+          <ul class="submenu">
+            <li><a href="#">Coolangatta</a></li>
+            <li><a href="#">Fortitude Valley</a></li>
+            <li><a href="#">Mooloolaba Beach</a></li>
+            <li><a href="#">South Brisbane</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <div class="banner">
+          <img src="./img/grapefruit-bg-optimized.jpg" alt="" />
+          <div id="content">
+            <h2>Gelatto & Chill</h2>
+            <p>
+              We'll be here for you when summer<br />gets too hot to handle.
+            </p>
+            <div>
+              <a href="#" class="button">Find a Shop</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
